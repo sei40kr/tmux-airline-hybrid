@@ -19,7 +19,7 @@ main() {
   tmux set-window-option -g window-status-activity-fg 'colour65'
   tmux set-window-option -g window-status-separator ''
   tmux set-window-option -g window-status-bg 'colour8'
-  tmux set-window-option -g window-status-format '#[fg=colour15,bg=colour8] #I  #W '
+  tmux set-window-option -g window-status-format '#[fg=colour15,bg=colour8] #I #W '
   tmux set-window-option -g window-status-current-format \
     '#[fg=colour8,bg=colour4]#[fg=colour0] #I  #W #[fg=colour4,bg=colour8]'
 }
