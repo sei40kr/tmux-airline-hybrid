@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/bin/sh
 
 main() {
   tmux set-option -g status 'on'
@@ -26,4 +26,4 @@ main() {
 
 main
 
-# vim: set filetype=zsh
+# vim: set filetype=sh
